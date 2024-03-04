@@ -1,0 +1,9 @@
+<div>
+  <form (ngSubmit)="addPlayer()">
+    <!-- Form fields for player data -->
+    <input type="text" [(ngModel)]="playerData.name" name="name" placeholder="Name">
+    <!-- Add other fields like age, team, etc. -->
+
+    <button type="submit">Add Player</button>
+  </form>
+</div>
